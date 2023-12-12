@@ -89,21 +89,9 @@ This section provides information about the software and tools that users need t
 ### Installation
 
 1. **Clone the repository**:
-Please, note the the repository is private and if you would like to clone or contribute to this project, you have to send a request for access. To clone the repository follow these steps:
-
-- *Submit a Request:*
-   - Send a request for access by [creating an issue](https://github.com/Alona90/NRGi/issues) in this repository.
-   - Clearly state your intent and how you plan to contribute to the project.
-
-- *Wait for Approval:*
-   - Once your request is submitted, we will review it.
-   - You will be notified of the decision through the issue thread.
-
-- *Clone the Repository:*
-   - After your request is approved, you can clone the repository using the following command:
 
    ```bash
-   git clone https://github.com/Alona90/NRGi.git
+   git clone https://github.com/FieTengberg/NRGi_P9_DAD.git
 
 2. **Install dependencies**
 
