@@ -35,7 +35,7 @@ const VideoComponent = ({onPress, video, text}) => {
   const styles = StyleSheet.create({
     // Style for the video component
     video: {
-        width: 180,
+        width: 210,
         height: 150,
         alignSelf: "center",
         marginHorizontal: 5,
@@ -49,12 +49,12 @@ const VideoComponent = ({onPress, video, text}) => {
         fontWeight: "bold"
       },
     
-    // Style for the view containing the video title
+    
     videoTitleView: {
         backgroundColor: colors.whiteColor, 
         borderWidth: 1,
         borderColor: "lightgrey",
-        width: 180, 
+        width: 210, 
         alignSelf: "center", 
         top: -10
       },

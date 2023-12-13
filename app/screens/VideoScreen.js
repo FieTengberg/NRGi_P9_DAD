@@ -1,6 +1,7 @@
 import React from "react";
 import {
   View,
+  StyleSheet
 } from "react-native";
 
 import containers from "../design/containers";
@@ -24,26 +25,34 @@ function ServiceScreenMain() {
 
       <HeaderComponent headertitle={"Video-guides"}/>
         
+      <View style={styles.videoContainer}>
       <VideoComponent 
           onPress={playVideo}
           video={nrgiVideo}
           text={"Er strømmen gået?"}>
       </VideoComponent>
 
-      <VideoComponent style={{top: -10}}
+      <VideoComponent 
           onPress={playVideo}
           video={nrgiVideo}
           text={"Forstå din regning"}>
       </VideoComponent>
 
-      <VideoComponent style={{top: -20}}
+      <VideoComponent 
           onPress={playVideo}
           video={nrgiVideo}
           text={"Reducér dit elforbrug"}>
       </VideoComponent>
-
+      </View>
     </View>
   );
 }
 
+const styles = StyleSheet.create({
+  
+  // Styling of container with diagram in it
+  videoContainer: {
+    marginTop: 30,
+  }}
+)
 export default ServiceScreenMain;
